@@ -1,0 +1,32 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  font-size: 18px;
+}
+div input {
+  font-size: 18px;
+  border: 0;
+  width: 50px;
+  background-color: salmon;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
